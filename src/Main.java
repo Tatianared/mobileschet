@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int schet = 100;
-        int oplata = 1100;
+        int score = 100;
+        int payment = 1100;
 
         int bonus;
-        if (oplata >= 1000) {
-            bonus = oplata / 100;
+        if (payment >= 1000) {
+            bonus = payment / 100;
         } else {
             bonus = 0;
         }
-        int itogo = schet + oplata + bonus;
+        int itogo = score + payment + bonus;
         System.out.println(itogo);
         System.out.println(bonus);
 
